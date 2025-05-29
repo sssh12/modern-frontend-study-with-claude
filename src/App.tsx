@@ -16,6 +16,13 @@ function App() {
       {/* 컴포넌트 그리드 */}
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* 다양한 사용자 카드들 */}
+        <WelcomeCard
+          name="오승하"
+          role="대표"
+          isOnline={true}
+          email="ssh0311b@naver.com"
+        />
+
         <WelcomeCard name="김개발" role="Frontend 개발자" isOnline={true} />
 
         <WelcomeCard name="이디자인" role="UI/UX 디자이너" isOnline={false} />
